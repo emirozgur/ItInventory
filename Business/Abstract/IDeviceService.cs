@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Business.Abstract
 {
-    interface IDeviceService
+    public interface IDeviceService
     {
         //Burada metodlar servis edilir.
         IDataResult<List<Device>> GetAll();
